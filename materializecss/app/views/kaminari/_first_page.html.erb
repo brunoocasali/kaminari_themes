@@ -1,3 +1,4 @@
 <li class="waves-effect">
-  <%= link_to_unless current_page.first?, raw(t 'views.pagination.first'), url, remote: remote %>
+  <%= link_to_unless current_page.first?, raw('<i class="fa fa-angle-double-left"></i>'),
+                     url, remote: remote %>
 </li>
